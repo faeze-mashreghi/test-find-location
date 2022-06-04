@@ -1,0 +1,20 @@
+.add-location{
+   width: 100%;
+}
+.add-location-box{
+    margin: auto;
+    width: 50%;
+}
+.add-location-box>.btn{
+    float: right !important;
+   
+}
+.select-location-type>.select-box>select{  
+    width: 47%;
+}
+.map-box{
+    display: flex;
+}
+.map-box >*{
+    width: 50%;
+}

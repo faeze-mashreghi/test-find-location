@@ -1,0 +1,4 @@
+export const ADD_NEW_LOCATION = "ADD_NEW_LOCATION";
+export const GET_ALL_LOCATION = "GET_ALL_LOCATION";
+export const EDDIT_LOCATION = "EDDIT_LOCATION";
+

@@ -1,0 +1,40 @@
+.input-box{
+    display: none;
+}
+.main-div-upload-box{
+    display: flex;
+    width: 100%;
+}
+.main-div-upload-box>*{
+    width: 50%;
+}
+.label-upload-box{
+    margin-top: 60px;
+}
+.upload-box{
+      border-radius: 4px; 
+      border:1px solid var(--DarkBlue) ;
+      float: right;
+}
+.upload-box-header{
+      background-color: var(--DarkBlue);
+      height: 30px;
+      width: 100%;
+      color: var(--White);
+      display: block;
+      color: var(--White);
+      text-align: center;
+      cursor: pointer;
+
+}
+.upload-box-body{
+    background-color: var(--LightBlue);
+    height: 100px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.icon-folder-upload{
+    font-size: 100px;
+}
