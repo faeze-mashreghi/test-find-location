@@ -1,9 +1,9 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import { Popup as PopupLeaflet } from "react-leaflet";
-import Button from "../Button";
+import Button from "../../../../component/Button";
 import "./style.css";
-import { locationType } from "../../model/constants";
-import { LocationProperties } from "../../model/interfaces";
+import { locationType } from "../../../../model/constants";
+import { LocationProperties } from "../../../../model/interfaces";
 
 interface PopUpProps {
   currentLocation?: LocationProperties;

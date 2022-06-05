@@ -1,6 +1,6 @@
 import { FC } from "react";
 import { MapContainer, TileLayer } from "react-leaflet";
-import { LocationProperties } from "../../model/interfaces";
+import { LocationProperties } from "../../../../model/interfaces";
 import Logic from "./logic";
 import "./style.css";
 

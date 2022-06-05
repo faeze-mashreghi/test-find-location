@@ -2,25 +2,26 @@ import { useEffect, useState } from "react";
 import { Marker, useMapEvents } from "react-leaflet";
 import Popup from "../Popup";
 import { useSelector } from "react-redux";
-import { RootState } from "../../store/reducer";
-import { LocationProperties } from "../../model/interfaces";
+import { RootState } from "../../../../store/reducer";
+import { LocationProperties } from "../../../../model/interfaces";
 
 const Logic = (selectedLocation?: (position: LocationProperties) => void) => {
+  const [fullScrren, setFullScreen] = useState(false);
   const [selectedPositions, setSelectedPositions] = useState<
     LocationProperties[]
   >([{ position: [0, 0] }]);
-  const [fullScrren, setFullScreen] = useState(false);
 
   const allLocation = useSelector((state: RootState) => state.location);
 
   useEffect(() => {
     setSelectedPositions(allLocation);
   }, [allLocation?.length]);
+
   const handleFullScreen = () => {
     setFullScreen(!fullScrren);
   };
   const Markers = () => {
-    const map = useMapEvents({
+    useMapEvents({
       dblclick(e) {
         setSelectedPositions([
           ...allLocation,

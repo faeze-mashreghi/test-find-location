@@ -49,8 +49,9 @@ const Logic = () => {
       dispatch(EdditLocation(newLocation!));
     } else {
       dispatch(AddLocation(newLocation!));
-      setNewLocation({});
     }
+    setNewLocation({});
+
     setSuccess(true);
     setTimeout(() => {
       setSuccess(false);
