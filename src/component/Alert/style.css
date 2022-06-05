@@ -1,0 +1,14 @@
+.alert {
+  padding: 20px;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.6s;
+  margin-bottom: 15px;
+}
+
+.alert.success {
+  background-color: var(--Success);
+}
+.alert.warning {
+  background-color: var(--Warning);
+}

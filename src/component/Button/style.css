@@ -1,16 +1,17 @@
-.btn{
-border-radius:6px;
-border: none;
-color: var(--White);
-cursor: pointer;
-padding: 0.375rem 0.75rem;
+.btn {
+  border-radius: 6px;
+  border: none;
+  color: var(--White);
+  cursor: pointer;
+  padding: 0.375rem 0.75rem;
 }
-.btn-secondary, .btn-default{
-      background-color: var(--Secondary);
+.btn-secondary,
+.btn-default {
+  background-color: var(--Secondary);
 }
-.btn-info{
-    background-color: var(--Info);
+.btn-info {
+  background-color: var(--Info);
 }
-.btn-warning{
-    background-color: var(--Warning);
+.btn-warning {
+  background-color: var(--Warning);
 }

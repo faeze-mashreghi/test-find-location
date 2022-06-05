@@ -1,13 +1,12 @@
-.text-box{
-    border: 1px solid var(--Secondary);
-    height: 25px;
-    border-radius: 4px;
-    
+.text-box {
+  border: 1px solid var(--Secondary);
+  height: 25px;
+  border-radius: 4px;
 }
-.div-text-box{
-    width: 100%;
-    display: flex;
+.div-text-box {
+  width: 100%;
+  display: flex;
 }
-.div-text-box>*{
-    width: 50%;
+.div-text-box > * {
+  width: 50%;
 }

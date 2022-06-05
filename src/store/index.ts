@@ -3,7 +3,6 @@ import { persistStore, persistReducer } from "redux-persist";
 import storage from "redux-persist/lib/storage";
 import rootReducer from "./reducer";
 
-
 const persistConfig = {
   key: "root",
   storage,
@@ -12,7 +11,7 @@ const persistConfig = {
 
 const dev = process.env.NODE_ENV === "development";
 
-const persistedReducer = persistReducer<any, any>(persistConfig, rootReducer);
+const persistedReducer = persistReducer(persistConfig, rootReducer);
 export const store = createStore(persistedReducer);
 // eslint-disable-next-line
 export default () => {

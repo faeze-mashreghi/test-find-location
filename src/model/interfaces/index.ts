@@ -1,14 +1,14 @@
 import { LatLngTuple } from "leaflet";
 
-export interface SelectOption{
-    value:number;
-    label:string
+export interface SelectOption {
+  value: string;
+  label: string;
 }
 
-export interface LocationProperties{
-    id?:string
-    type?:number
-    name?:string
-    logo?:string
-    position?:LatLngTuple
+export interface LocationProperties {
+  id?: string;
+  type?: string;
+  name?: string;
+  logo?: string;
+  position?: LatLngTuple;
 }

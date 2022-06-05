@@ -1,27 +1,27 @@
-.popup-header{
-    position: absolute;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    top: 0;
-    left: 0;
-    background-color: var(--DarkBlue) ;
-    color: var(--White);
-    width: 100%;
-
+.popup-header {
+  position: absolute;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  top: 0;
+  left: 0;
+  background-color: var(--DarkBlue);
+  color: var(--White);
+  width: 100%;
 }
-.popup-header span{padding-left: 8px;}
-.leaflet-popup-close-button span{
-    color: var(--White);
-    margin-right: 3px;
-
-} 
-.leaflet-popup-content-wrapper{
-    border-radius: 0 !important;
+.popup-header span {
+  padding-left: 8px;
 }
-.popup-body{
-    position: relative;
-    top: 10px;
+.leaflet-popup-close-button span {
+  color: var(--White);
+  margin-right: 3px;
 }
-.eddit-button{
-   text-align: right;
+.leaflet-popup-content-wrapper {
+  border-radius: 0 !important;
+}
+.popup-body {
+  position: relative;
+  top: 10px;
+}
+.eddit-button {
+  text-align: right;
 }

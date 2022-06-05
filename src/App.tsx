@@ -1,12 +1,7 @@
+import AddLocation from "./pages/addLocation/inadex";
 
-import AddLocation from './pages/addLocation/inadex';
-
-
-function App() {
-  return (
-    <AddLocation/>
-
-  );
-}
+const App = () => {
+  return <AddLocation />;
+};
 
 export default App;
