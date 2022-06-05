@@ -28,7 +28,6 @@ select {
   right: 5px;
   top: 2px;
   position: absolute;
-  pointer-events: none;
 }
 .select-box label:before {
   content: "";

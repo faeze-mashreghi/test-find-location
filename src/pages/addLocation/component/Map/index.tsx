@@ -19,7 +19,7 @@ const Map: FC<MapProps> = ({ selectedLocation }) => {
         doubleClickZoom={false}
       >
         <button
-          className="fullscreen-button"
+          className="fullscreen-button bg-white"
           type="button"
           onClick={handleFullScreen}
         >

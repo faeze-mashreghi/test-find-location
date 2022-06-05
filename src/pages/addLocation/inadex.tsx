@@ -35,9 +35,16 @@ const LocationCard: FC = ({}) => {
           />
 
           <div className="map-box mt-3">
-            <label>Location on map:</label>
+            <label className="dark">Location on map:</label>
             <div>
               <Map selectedLocation={getPositionCallBack} />
+              <input
+                className="hidden-input white"
+                value={
+                  newLocation?.position ? newLocation?.position![0] : undefined
+                }
+                required
+              />
             </div>
           </div>
           <SelectBox

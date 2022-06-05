@@ -8,7 +8,7 @@ interface AlertProps {
 const Alert: FC<AlertProps> = ({ variant }) => {
   return (
     <>
-      <div className={`alert ${variant}`}>
+      <div className={`alert alert-${variant}`}>
         <strong>{statusMessage[variant!]}</strong>
       </div>
     </>

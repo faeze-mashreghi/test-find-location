@@ -39,7 +39,7 @@ const Logic = (selectedLocation?: (position: LocationProperties) => void) => {
       <>
         {selectedPositions?.length > 0
           ? selectedPositions.map((item) => (
-              <Marker key={item?.position![0]} position={item.position!}>
+              <Marker key={item?.id} position={item.position!}>
                 <Popup
                   currentLocation={item}
                   onEdditClick={(current) => {

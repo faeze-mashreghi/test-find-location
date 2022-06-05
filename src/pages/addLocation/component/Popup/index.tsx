@@ -14,16 +14,18 @@ const Popup: FC<PopUpProps> = ({ currentLocation, onEdditClick }) => {
   return (
     <>
       <PopupLeaflet>
-        <div className="popup-header">
+        <div className="popup-header bg-darkblue white">
           <span>{currentLocation?.name}</span>
         </div>
         <div className="popup-body">
-          <img
-            src={currentLocation?.logo}
-            alt={currentLocation?.name}
-            width="100"
-            height="60"
-          />
+          {currentLocation?.logo && (
+            <img
+              src={currentLocation?.logo}
+              alt={currentLocation?.name}
+              width="100"
+              height="60"
+            />
+          )}
           <div>
             {" "}
             <span>type:</span>{" "}

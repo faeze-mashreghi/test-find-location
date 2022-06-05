@@ -19,7 +19,7 @@ const TextBox: FC<TextBoxProps> = ({
 }) => {
   return (
     <div className={`div-text-box ${className}`}>
-      <label>{label}</label>
+      <label className="dark">{label}</label>
       <input
         className="text-box"
         onChange={onChange}

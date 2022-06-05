@@ -1,6 +1,7 @@
 :root {
   --Dark: #1e1b1b;
   --Secondary: #908b8b;
+  --NeturalLight: #dbdbdb;
   --Info: #5cc0c6;
   --White: #ffffff;
   --DarkBlue: #5c8fc6;
@@ -28,14 +29,22 @@
   color: var(--DarkBlue) !important;
 }
 /*bg Color*/
-
+.bg-white {
+  background-color: var(--White) !important;
+}
 .bg-info {
   background-color: var(--Info) !important;
 }
 .bg-secondary {
   color: var(--Secondary) !important;
 }
+.bg-darkblue {
+  background-color: var(--DarkBlue) !important;
+}
 
+.bg-ligthblue {
+  background-color: var(--LightBlue) !important;
+}
 /*font*/
 .fs10 {
   font-size: 10px !important;

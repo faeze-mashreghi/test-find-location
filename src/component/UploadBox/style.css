@@ -17,22 +17,18 @@
   float: right;
 }
 .upload-box-header {
-  background-color: var(--DarkBlue);
   height: 30px;
   width: 100%;
-  color: var(--White);
   display: block;
-  color: var(--White);
   text-align: center;
   cursor: pointer;
 }
 .upload-box-body {
-  background-color: var(--LightBlue);
   height: 100px;
   text-align: center;
   cursor: pointer;
 }
 
 .icon-folder-upload {
-  font-size: 100px;
+  font-size: 5rem;
 }

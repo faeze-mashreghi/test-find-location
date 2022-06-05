@@ -4,8 +4,6 @@
   padding-bottom: 3px;
   top: 0;
   left: 0;
-  background-color: var(--DarkBlue);
-  color: var(--White);
   width: 100%;
 }
 .popup-header span {

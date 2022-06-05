@@ -22,7 +22,7 @@ const SelectBox: FC<SelectBoxProps> = ({
 }) => {
   return (
     <div className={`main-div-select ${className}`}>
-      <label>{label}</label>
+      <label className="dark">{label}</label>
       <div className="select-box">
         <label>
           <select

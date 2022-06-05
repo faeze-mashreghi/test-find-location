@@ -14,3 +14,12 @@
 .map-box > * {
   width: 50%;
 }
+.hidden-input {
+  height: 0;
+  border: none;
+  outline: none;
+}
+.hidden-input:active {
+  border: none;
+  outline: none;
+}

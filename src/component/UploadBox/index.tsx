@@ -15,11 +15,11 @@ const UploadBox: FC<UploadBoxProps> = ({
 }) => {
   return (
     <div className="main-div-upload-box">
-      <label className=" label-upload-box">{label}</label>
+      <label className=" label-upload-box dark">{label}</label>
       <div className={`upload-box ${className}`}>
         <label htmlFor="file-input">
-          <div className="fs20 upload-box-header">upload</div>
-          <div className="fs20 upload-box-body">
+          <div className=" upload-box-header bg-darkblue white">upload</div>
+          <div className=" upload-box-body bg-ligthblue">
             <span className="icon-folder-upload  darkblue"></span>
           </div>
           <input

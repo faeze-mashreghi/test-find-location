@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import "./style.css";
 interface CardProps {
   children: JSX.Element[] | JSX.Element;
@@ -8,7 +8,7 @@ interface CardProps {
 const Card: FC<CardProps> = ({ title, children }) => {
   return (
     <>
-      <div className="card">
+      <div className="card white">
         <div className="card-header">{title}</div>
         <div className="card-body">{children}</div>
       </div>

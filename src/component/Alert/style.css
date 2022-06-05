@@ -6,9 +6,9 @@
   margin-bottom: 15px;
 }
 
-.alert.success {
+.alert-success {
   background-color: var(--Success);
 }
-.alert.warning {
+.alert-warning {
   background-color: var(--Warning);
 }

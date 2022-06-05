@@ -46,18 +46,18 @@ const Logic = () => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (newLocation?.id) {
+      setNewLocation({});
       dispatch(EdditLocation(newLocation!));
     } else {
       dispatch(AddLocation(newLocation!));
+      setNewLocation({});
     }
-    setNewLocation({});
 
     setSuccess(true);
     setTimeout(() => {
       setSuccess(false);
     }, 5000);
   };
-
   return {
     handleOnChangeSelectBox,
     handleOnChangeTextBox,
